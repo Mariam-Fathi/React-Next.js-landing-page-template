@@ -20,7 +20,7 @@ export default function Header() {
           </div>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex md:grow">
+          <nav className="hidden xl:flex md:grow">
             {/* Desktop links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
