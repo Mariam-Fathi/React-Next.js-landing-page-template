@@ -12,8 +12,8 @@ export default function Pricing() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Choose Your Plan</div>
-            <h1 className="h2 mb-4">Our Pricing & Plans</h1>
+            <div className="font-architects-daughter text-xl text-purple-600 uppercase mb-2">Choose Your Plan</div>
+            <h2 className="h2 mb-4">Our Pricing & Plans</h2>
             <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
             
             {/* toggle switch */}
@@ -53,17 +53,17 @@ export default function Pricing() {
               )}
               <ul className="flex justify-center flex-col my-8">
                 <li className="border-t border-slate-300 py-3 text-slate-600">
-                  500 GB Storage
+                  Lorem ipsum dolor.
                 </li>
                 <li className="border-t border-slate-300 py-3 text-slate-600">
-                  2 Users Allowed
+                  Sit amet consetetur set a ledip.
                 </li>
                 <li className="border-y border-slate-300 py-3 text-slate-600">
-                  Send up to 3 GB
+                  Lorems Sit ledip ipsum dolor.
                 </li>
               </ul>
               <button className="bg-purple-600 btn text-white py-3 w-full rounded-lg shadow uppercase cursor-pointer border-2 hover:border-2">
-                Learn More
+                Choose Plan
               </button>
             </article>
 
@@ -82,17 +82,17 @@ export default function Pricing() {
               )}
               <ul className="flex justify-center flex-col my-8">
                 <li className="text-white border-t border-white py-3">
-                  1 TB Storage
+                  Lorem ipsum dolor.
                 </li>
                 <li className="text-white border-t border-white py-3">
-                  5 Users Allowed
+                  Sit amet consetetur set a ledip.
                 </li>
                 <li className="text-white border-y border-white py-3">
-                  Send up to 10 GB
+                  Lorems Sit ledip ipsum dolor.
                 </li>
               </ul>
               <button className="bg-purple-200 text-slate-800 py-2 w-full rounded-lg shadow border-2 border-white uppercase cursor-pointer hover:bg-transparent hover:text-white transition-all duration-200">
-                Learn More
+                Choose Plan
               </button>
             </article>
 
@@ -111,17 +111,17 @@ export default function Pricing() {
               )}
               <ul className="flex justify-center flex-col my-8">
                 <li className="border-t border-slate-300 py-3 text-slate-600">
-                  2 TB Storage
+                  Lorem ipsum dolor.
                 </li>
                 <li className="border-t border-slate-300 py-3 text-slate-600">
-                  10 Users Allowed
+                  Sit amet consetetur set a ledip.
                 </li>
                 <li className="border-y border-slate-300 py-3 text-slate-600">
-                  Send up to 20 GB
+                  Sit amet consetetur set a ledip.
                 </li>
               </ul>
               <button className="bg-purple-600 btn text-white py-3 w-full rounded-lg shadow uppercase cursor-pointer border-2 hover:border-2">
-                Learn More
+                Choose Plan
               </button>
             </article>
           </div>
