@@ -6,7 +6,7 @@ export default function Pricing() {
   const [annually, setAnnually] = useState<boolean>(false)
 
   return (
-    <section>
+    <section id="pricing">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 

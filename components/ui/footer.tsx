@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer>
-      <div className="py-12 md:py-16">
+      <div className="py-12 md:py-20 border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
           {/* Top area: Blocks */}
@@ -12,7 +12,7 @@ export default function Footer() {
 
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5">
-              <div className="mb-2 flex gap-2">
+              <div className="mb-2 flex gap-2 items-center">
                 {/* Logo */}
                 <Link href="/" className="inline-block" aria-label="Cruip">
                   <svg className="w-8 h-8 fill-current text-purple-600" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -41,6 +41,12 @@ export default function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Programming Forms</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Data Analytics</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">E-Commerce</Link>
                   </li>
                 </ul>
               </div>
@@ -97,7 +103,7 @@ export default function Footer() {
           <div className="md:flex md:items-center md:justify-between">
 
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            <ul className="flex mb-4 md:order-1 md:mb-0">
               <li>
                 <Link href="/" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Twitter">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">

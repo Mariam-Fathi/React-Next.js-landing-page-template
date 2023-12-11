@@ -33,7 +33,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="#service"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Service
@@ -41,7 +41,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="#pricing"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Pricing
@@ -49,7 +49,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="#team"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Team
@@ -57,7 +57,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="#testimonials"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Testimonials
