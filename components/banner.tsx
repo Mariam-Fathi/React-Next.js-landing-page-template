@@ -16,7 +16,7 @@ export default function Banner() {
                 href="/signup"
                 rel="noreferrer"
               >
-                Sign Up For Free
+                Start Free Trial
               </a>{' '}
               <span className="italic px-1.5">or</span>{' '}
               <a className="font-medium hover:underline text-emerald-400" href="/" rel="noreferrer">
