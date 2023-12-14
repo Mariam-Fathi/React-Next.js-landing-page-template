@@ -6,6 +6,7 @@ export default function Header() {
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
+          
           {/* Site branding */}
           <div className="shrink-0 mr-4 flex items-center gap-2">
             {/* Logo */}
@@ -20,13 +21,13 @@ export default function Header() {
           </div>
 
           {/* Desktop navigation */}
-          <nav className="hidden xl:flex md:grow">
+          <nav className="hidden xl:flex xl:justify-between xl:w-full xl:grow">
             {/* Desktop links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-200 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Home
                 </Link>
@@ -34,7 +35,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#service"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-200 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Service
                 </Link>
@@ -42,7 +43,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#pricing"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-200 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Pricing
                 </Link>
@@ -50,7 +51,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#team"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-200 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Team
                 </Link>
@@ -58,14 +59,26 @@ export default function Header() {
               <li>
                 <Link
                   href="#testimonials"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-200 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Testimonials
                 </Link>
               </li>
+            </ul>
+
+            {/* Desktop sign in links */}
+            <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 rounded-tl-2xl rounded-br-2xl ml-3">
-                  Start free trial
+                <Link
+                  href="/signin"
+                  className="font-medium text-gray-200 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Sign in
+                </Link>
+              </li>
+              <li>
+                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                  Sign up
                 </Link>
               </li>
             </ul>
