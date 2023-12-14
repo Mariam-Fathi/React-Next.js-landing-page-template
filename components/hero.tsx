@@ -32,7 +32,7 @@ export default function Hero() {
               <form className="w-full">
                 <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                   <input type="email" className="w-full appearance-none bg-purple-100 border border-purple-300 focus:border-purple-200 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-purple-700 placeholder-purple-500" placeholder="Your email address…" aria-label="Your best email…" />
-                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 shadow" href="#0">Subscribe</a>
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 shadow" href="/">Subscribe</a>
                 </div>
               </form>
             </div>
